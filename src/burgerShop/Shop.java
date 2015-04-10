@@ -311,7 +311,7 @@ public class Shop extends javax.swing.JFrame {
         // TODO add your handling code here:
         if (chkDrink.isSelected()) {
             cbxDrinkDetail.addItem("Pepsi");
-            cbxDrinkDetail.addItem("7up;");
+            cbxDrinkDetail.addItem("7up");
             pnlDrink.setVisible(true);
         } else {
             pnlDrink.setVisible(false);
@@ -352,9 +352,9 @@ public class Shop extends javax.swing.JFrame {
         pnlBurger.setVisible(false);
         chkBurger.setSelected(false);
         chkFrenchFries.setSelected(false);
-        cbxDrinkDetail.removeAllItems();
         cbxDrink.setSelectedIndex(0);
         pnlDrink.setVisible(false);
+        cbxDrinkDetail.removeAllItems();
         chkDrink.setSelected(false);
         chkDrink.setEnabled(false);
         cbxDessert.setSelectedIndex(0);
